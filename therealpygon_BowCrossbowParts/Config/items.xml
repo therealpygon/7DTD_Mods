@@ -1,0 +1,20 @@
+<configs>
+<!-- new schematic unlocked automatically -->
+<append xpath="/items">
+  <item name="gunBowWoodenPartsSchematic">
+    <property name="Extends" value="schematicNoQualityMaster"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="CustomIcon" value="gunBowWoodenParts"/>
+    <property name="Unlocks" value="gunBowWoodenParts"/>
+    <effect_group tiered="false">
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowWoodenPartsCrafting" operation="set" value="1"/>
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+    </effect_group>
+  </item>
+</append>
+<!-- Append to  -->
+<append xpath="items/item[@name='gunBowWoodenParts']">
+  <property name="UnlockedBy" value="perkArchery,gunBowWoodenPartsSchematic" />
+</append>
+
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="therealpygon-BowCrossbowParts" />
+    <Description value="Adds a tablesaw recipe for crafting bow/crossbow parts, when archery perk is learned " />
+    <Author value="therealpygon" />
+    <Version value="18.0.0.1" compat="A18" />
+  </ModInfo>
+</xml>

@@ -1,0 +1,3 @@
+<configs> 
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SightRange']/@value">40</set>  
+</configs>                  

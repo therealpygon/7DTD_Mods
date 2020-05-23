@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<xml>    
+	<ModInfo>                  
+		<Author value="therealpygon" />     
+		<Name value="BetterZombieSight" />    
+		<Description value="Make it so the zombies better sight. From 30m to 50m. Original Author: Adredens" />     
+		<Version value="0.0.1" />              
+	</ModInfo> 
+</xml>    

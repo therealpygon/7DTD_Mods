@@ -1,0 +1,2 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+gunBowWoodenPartsSchematic,items,GunBow,,,Bow / Crossbow Parts Schematic,,Bauplan – Bogen-/Armbrustteile,Esquema de partes de arco/ballesta,Schéma pièces d'arc / d'arbalète,Schema di arti per arco e balestra,?,?,Części łuku / kuszy— schemat,Diagrama de peças de arco / besta,?,Yay / Arbalet Parçaları Şeması,?,?,Esquema de partes de arco/ballesta
