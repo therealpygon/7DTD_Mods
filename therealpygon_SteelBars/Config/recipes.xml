@@ -1,0 +1,18 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="steelBars" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="200"/>
+      <ingredient name="unit_clay" count="40"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+    <recipe name="steelBarsCentered" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="200"/>
+      <ingredient name="unit_clay" count="40"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+  </append>
+</configs>
