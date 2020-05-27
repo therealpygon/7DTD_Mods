@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="therealpygon-BalanceIngredientCosts" />
+    <Description value="Balances ingredient costs to match more realistic requirements and effects." />
+    <Author value="therealpygon" />
+    <Version value="18.0.0.1" compat="A18" />
+  </ModInfo>
+</xml>

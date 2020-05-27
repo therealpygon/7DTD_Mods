@@ -6,3 +6,4 @@ Custom mods that add specific features I wanted to the game.
 * BowCrossbowParts: Makes bow/crossbow parts craftable at the tablesaw.
 * ZombieNerf: Reduces damage by zombies to ~75%, significantly reduces their damage to blocks (because lets be real, a fist < concrete block). Works well with increased spawn rates/larger groups.
 * SteelBars: Adds upgrade from ironBars (2500) to steelBars (5000) plus forge crafting recipe.
+* BalanceIngredientCosts: Balances ingredient costs to match more realistic requirements and effects.
