@@ -1,22 +1,20 @@
 <configs>
   <set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">3</set>
-  <!-- Stackables Tweak -->
-  <set xpath="/recipes/recipe[@name='Bacon and Eggs Bundle']/ingredient[@name='foodRawMeat']/@count">24</set>
 
   <set xpath="/recipes/recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
   <!--set xpath="/items/item[@name='foodBoiledMeat']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">10</set-->
-  <!-- Stackables Tweak -->
-  <set xpath="/recipes/recipe[@name='Boiled Meat Bundle']/ingredient[@name='foodRawMeat']/@count">24</set>
   
   <set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
   <!--set xpath="/items/item[@name='foodCharredMeat']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">5</set-->
   
   <set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
   <!-- set xpath="/items/item[@name='foodGrilledMeat']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">5</set -->
-  <!-- Stackables Tweak -->
-  <set xpath="/recipes/recipe[@name='Grilled Meat Bundle']/ingredient[@name='foodRawMeat']/@count">8</set>
   
   <set xpath="/recipes/recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">4</set>
 
-  <set xpath="/recipes/recipe[@name='meleeToolKnifeBone']/ingredient[@name='resourceBone']/@count">1</set>  
+  <!-- set xpath="/recipes/recipe[@name='meleeWpnBladeT0BoneKnife']/ingredient[@name='resourceBone']/@count">1</-->  
+  <!-- Stackables Tweaks -->
+  <!--set xpath="/recipes/recipe[@name='Bacon and Eggs Bundle']/ingredient[@name='foodRawMeat']/@count">24</set -->
+  <!--set xpath="/recipes/recipe[@name='Boiled Meat Bundle']/ingredient[@name='foodRawMeat']/@count">24</set -->
+  <!--set xpath="/recipes/recipe[@name='Grilled Meat Bundle']/ingredient[@name='foodRawMeat']/@count">8</set/ -->
 </configs>

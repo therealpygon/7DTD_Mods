@@ -4,6 +4,6 @@
     <Name value="therealpygon-SteelBars" />
     <Description value="Adds upgrade from ironBars (2500) to steelBars (5000) plus forge crafting recipe." />
     <Author value="therealpygon" />
-    <Version value="18.0.0.1" compat="A18" />
+    <Version value="19.6.2" compat="A19" />
   </ModInfo>
 </xml>
