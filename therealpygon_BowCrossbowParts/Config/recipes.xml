@@ -1,6 +1,6 @@
 <configs>
   <append xpath="/recipes">
-    <recipe name="gunBowWoodenParts" count="1" craft_time="300" craft_area="tablesaw" tags="learnable,perkArchery,gunBowWoodenPartsCrafting">
+    <recipe name="gunBowT1WoodenBowParts" count="1" craft_time="300" craft_area="workbench" tags="learnable,perkArchery,gunBowWoodenPartsCrafting">
       <ingredient name="resourceWood" count="40" />
       <ingredient name="resourceGlue" count="10" />
       <ingredient name="resourceDuctTape" count="4" />
