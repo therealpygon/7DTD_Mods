@@ -1,0 +1,24 @@
+<configs>
+  <append xpath="/xui/ruleset[@name='default']" >
+    <window_group name="workstation_forgeAdvanced" controller="XUiC_WorkstationWindowGroup">
+      <window name="windowCraftingList"/>
+      <window name="craftingInfoPanel"/>
+      <window name="windowCraftingQueue"/>
+      <window name="windowToolsForgeAdvanced" />
+      <window name="windowFuel" />
+      <window name="windowForgeInput" />
+      <window name="windowOutput" />
+      <window name="windowNonPagingHeader" />
+    </window_group>
+    <window_group name="workstation_forgeSelfPowered" controller="XUiC_WorkstationWindowGroup">
+      <window name="windowCraftingList"/>
+      <window name="craftingInfoPanel"/>
+      <window name="windowCraftingQueue"/>
+      <window name="windowToolsForgePowered" />
+      <window name="windowFuelGas" />
+      <window name="windowForgeTripleInput" />
+      <window name="windowOutput" />
+      <window name="windowNonPagingHeader" />
+    </window_group>
+  </append>
+</configs>

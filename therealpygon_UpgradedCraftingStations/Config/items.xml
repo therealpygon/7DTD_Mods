@@ -1,0 +1,45 @@
+<configs>
+  <append xpath="/items">
+    <item name="toolDoubleBellows">
+      <property name="UnlockedBy" value="toolBellowsSchematic"/>
+      <property name="CustomIcon" value="toolDoubleBellows"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="MtoolBellows"/>
+      <property name="Stacknumber" value="1"/> <!-- STK resource -->
+      <property name="Weight" value="150"/>
+      <property name="EconomicValue" value="800"/>
+      <property name="Group" value="Tools/Traps"/>
+      <property name="DisplayType" value="toolBellows"/>
+      <property name="ItemTypeIcon" value="forge"/>
+      <effect_group tiered="false">
+        <passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.65"/> <!-- this is essentially a multiplier -->
+        <display_value name="dCraftingSmeltTime" value=".65"/>
+      </effect_group>
+    </item>
+    <item name="toolForgeBlower">
+      <property name="UnlockedBy" value="toolBellowsSchematic"/>
+      <property name="CustomIcon" value="toolForgeBlower"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="MtoolBellows"/>
+      <property name="Stacknumber" value="1"/> <!-- STK resource -->
+      <property name="Weight" value="200"/>
+      <property name="EconomicValue" value="1000"/>
+      <property name="Group" value="Tools/Traps"/>
+      <property name="DisplayType" value="toolBellows"/>
+      <property name="ItemTypeIcon" value="forge"/>
+      <effect_group tiered="false">
+        <passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.80"/> <!-- this is essentially a multiplier -->
+        <display_value name="dCraftingSmeltTime" value=".80"/>
+      </effect_group>
+    </item>
+  </append>
+  <append xpath="/items/item[@name='toolBellowsSchematic']/property[@name='Unlocks']/@value">,toolDoubleBellows,toolForgeBlower</append>
+  <append xpath="/items/item[@name='toolBellowsSchematic']/effect_group">
+    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolDoubleBellows" operation="set" value="1"/>
+    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolForgeBlower" operation="set" value="1"/>
+  </append>
+</configs>

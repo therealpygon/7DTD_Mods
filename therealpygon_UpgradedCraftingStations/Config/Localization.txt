@@ -1,0 +1,8 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+forgeAdvanced,blocks,Block,,,Advanced Forge,,?,?,?,?,?,?,?,?,?,?,?
+toolDoubleBellows,items,Item,,,Double Bellows,,?,?,?,?,?,?,?,?,?,?,?,?,?
+toolDoubleBellowsDesc,items,Item,,,A tool that can be installed in a forge. It increases air flow and so the smelting speed of the forge.,,?,?,?,?,?,?,?,?,?,?,?,?,?
+forgeSelfPowered,blocks,Block,,,Self-Powered Forge,,?,?,?,?,?,?,?,?,?,?,?
+toolForgeBlower,items,Item,,,Forge Blower,,?,?,?,?,?,?,?,?,?,?,?,?,?
+toolForgeBlowerDesc,items,Item,,,A tool that can be installed in a forge. It uses forced air to increase the smelting speed of the forge.,,?,?,?,?,?,?,?,?,?,?,?,?,?
+xuiFuelGas,UI,XUI,,,Generator Fuel,,?,?,?,?,?,?,?,?,?,?,?,?,?

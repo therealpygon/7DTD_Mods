@@ -1,0 +1,2 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+steelLogSpike6,blocks,Trap,,,Steel Log Spike,,Spitzer Stahlstamm,Pincho de tronco de acero,Pique en rondin d'acier,Palo appuntito di acciaio,鉄鋼ログスパイク,강철 통가시,Stal — kolec w kłodzie,Espinho de Tronco de Aço,Шип из стали,Dikenli Çelik Sopa,钢木钉,鋼園木釘,Pincho de tronco de acero

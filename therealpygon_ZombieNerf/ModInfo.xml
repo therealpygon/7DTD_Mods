@@ -4,6 +4,6 @@
     <Name value="therealpygon-ZombieNerf" />
     <Description value="Reduces zombie and zombie-like animal damage against entities, significantly reduces damage against blocks to a more realistic setting. Best when combined with increased spawn rates (x8 or x16)." />
     <Author value="therealpygon" />
-    <Version value="18.0.0.2" compat="A18" />
+    <Version value="19.6.2" compat="A19" />
   </ModInfo>
 </xml>

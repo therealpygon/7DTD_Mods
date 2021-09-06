@@ -1,0 +1,23 @@
+<configs>
+  <!-- woodLogSpike1 -->
+  <set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage']/@value">5</set>
+  <set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage_received']/@value">5</set>
+  <!-- rWoodLogSpike2 -->
+  <set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage']/@value">10</set>
+  <set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage_received']/@value">10</set>
+  <!-- rWoodMetalLogSpike3 -->
+  <set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">25</set>
+  <set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage_received']/@value">15</set>
+  <!-- scrapIronLogSpike4 -->
+  <set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">30</set>
+  <set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage_received']/@value">15</set>
+  <!-- rScrapIronLogSpike5 -->
+  <set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">35</set>
+  <set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage_received']/@value">17</set>
+  <!-- steelLogSpike6 -->
+  <set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">50</set>
+  <set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage_received']/@value">25</set>
+  <append xpath="/blocks/block[@name='steelLogSpike6']">
+    <property name="MaxDamage" value="5000"/>
+  </append>
+</configs>

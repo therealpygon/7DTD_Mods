@@ -1,0 +1,7 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="steelLogSpike6" count="1">
+      <ingredient name="resourceForgedSteel" count="12" />
+    </recipe>
+  </append>
+</configs>

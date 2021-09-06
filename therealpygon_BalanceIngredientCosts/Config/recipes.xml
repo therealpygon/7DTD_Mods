@@ -1,7 +1,11 @@
 <configs>
   <set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">3</set>
-  <set xpath="/recipes/recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
+  <set xpath="/recipes/recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
   <set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
+  <!--remove xpath="/recipes/recipe[@name='foodCharredMeat']//passive_effect[@name='CraftingIngredientCount']" /-->
+  <remove xpath="/recipes/recipe[@name='foodCharredMeat']/effect_group" />
   <set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
+  <remove xpath="/recipes/recipe[@name='foodGrilledMeat']/effect_group" />
+  <!-- remove xpath="/recipes/recipe[@name='foodGrilledMeat']//passive_effect[@name='CraftingIngredientCount']" /-->
   <set xpath="/recipes/recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">4</set>
 </configs>

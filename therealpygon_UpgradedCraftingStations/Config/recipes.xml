@@ -1,0 +1,38 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="forgeAdvanced" craft_area="workbench" count="1" tags="learnable">
+      <ingredient name="resourceForgedIron" count="40"/>
+      <ingredient name="resourceMechanicalParts" count="4"/>
+      <ingredient name="resourceLeather" count="10"/>
+      <ingredient name="resourceDuctTape" count="3"/>
+      <ingredient name="resourceMetalPipe" count="3"/>
+    </recipe>
+    <recipe name="toolDoubleBellows"  craft_area="workbench" count="1" tags="learnable">
+      <ingredient name="resourceWood" count="12"/>
+      <ingredient name="resourceLeather" count="40"/>
+      <ingredient name="resourceMetalPipe" count="4"/>
+      <ingredient name="resourceDuctTape" count="10"/>
+      <ingredient name="resourceNail" count="10"/>
+    </recipe>
+    <recipe name="forgeSelfPowered" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+      <ingredient name="resourceForgedSteel" count="40"/><ingredient name="resourceMetalPipe" count="20"/>
+      <ingredient name="resourceMechanicalParts" count="16"/>
+      <ingredient name="resourceElectricParts" count="24"/>
+      <ingredient name="resourceOil" count="10"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".8,.8,.8,.6,.5" tags="resourceForgedSteel,resourceMetalPipe,resourceMechanicalParts,resourceElectricParts,resourceOil"/>
+      </effect_group>
+    </recipe>
+    <recipe name="toolForgeBlower" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
+      <ingredient name="resourceForgedSteel" count="20"/>
+      <ingredient name="resourceMetalPipe" count="16"/>
+      <ingredient name="resourceMechanicalParts" count="8"/>
+      <ingredient name="resourceElectricParts" count="12"/>
+      <ingredient name="resourceOil" count="5"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".8,.8,.8,.6,.5" tags="resourceForgedSteel,resourceMetalPipe,resourceMechanicalParts,resourceElectricParts,resourceOil"/>
+      </effect_group>
+    </recipe>
+  </append>
+</configs>
+

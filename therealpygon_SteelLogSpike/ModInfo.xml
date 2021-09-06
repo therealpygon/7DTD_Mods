@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="therealpygon-SteelLogSpikeTweak" />
+    <Description value="Adds Steel Log Spike recipe, and tweaks the damage/self-damage. Best when used with a mod that re-enables the old log spike recipes (e.g. donovan-craftspikes)." />
+    <Author value="therealpygon" />
+    <Version value="19.6.2" compat="A19" />
+  </ModInfo>
+</xml>

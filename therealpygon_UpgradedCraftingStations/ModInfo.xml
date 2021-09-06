@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="therealpygon-UpgradedCraftingStations" />
+    <Description value="Adds upgraded crafting stations including powered options." />
+    <Author value="therealpygon" />
+    <Version value="19.6.2" compat="A19" />
+  </ModInfo>
+</xml>
