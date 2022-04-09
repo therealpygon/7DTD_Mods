@@ -689,20 +689,4 @@
 		<drop event="Harvest" name="foodRottingFlesh" count="0,1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="0,1" tag="WasteTreasuresCompleteHarvest"/>
 	</append>
-	<append xpath="/entity_classes/entity_class[@name='zombieBehemoth']">
-		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="0,1"/>
-		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="0,1"/>
-		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="0,1"/>
-		<drop event="Harvest" name="foodRottingFlesh" count="0,1" tag="WasteTreasuresCompleteHarvest"/>
-		<drop event="Harvest" name="resourceBone" count="0,1" tag="WasteTreasuresCompleteHarvest"/>
-	</append>
-	<append xpath="/entity_classes/entity_class[@name='zombieMiner']">
-		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="0,1"/>
-		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="0,1"/>
-		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="0,1"/>
-		<drop event="Harvest" name="foodRottingFlesh" count="0,1" tag="WasteTreasuresCompleteHarvest"/>
-		<drop event="Harvest" name="resourceBone" count="0,1" tag="WasteTreasuresCompleteHarvest"/>
-	</append>
 </configs>
