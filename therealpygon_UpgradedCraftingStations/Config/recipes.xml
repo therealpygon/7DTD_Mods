@@ -15,22 +15,47 @@
       <ingredient name="resourceNail" count="10"/>
     </recipe>
     <recipe name="forgeSelfPowered" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
-      <ingredient name="resourceForgedSteel" count="40"/><ingredient name="resourceMetalPipe" count="20"/>
-      <ingredient name="resourceMechanicalParts" count="16"/>
-      <ingredient name="resourceElectricParts" count="24"/>
+      <ingredient name="resourceForgedSteel" count="30"/><ingredient name="resourceMetalPipe" count="15"/>
+      <ingredient name="resourceMechanicalParts" count="12"/>
+      <ingredient name="resourceElectricParts" count="16"/>
       <ingredient name="resourceOil" count="10"/>
       <effect_group>
-        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".8,.8,.8,.6,.5" tags="resourceForgedSteel,resourceMetalPipe,resourceMechanicalParts,resourceElectricParts,resourceOil"/>
+        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".25,.25,.25,.177,.12" tags="resourceForgedSteel,resourceMetalPipe,resourceMechanicalParts,resourceElectricParts,resourceOil"/>
       </effect_group>
     </recipe>
     <recipe name="toolForgeBlower" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
       <ingredient name="resourceForgedSteel" count="20"/>
-      <ingredient name="resourceMetalPipe" count="16"/>
-      <ingredient name="resourceMechanicalParts" count="8"/>
-      <ingredient name="resourceElectricParts" count="12"/>
-      <ingredient name="resourceOil" count="5"/>
+      <ingredient name="resourceMetalPipe" count="12"/>
+      <ingredient name="resourceMechanicalParts" count="6"/>
+      <ingredient name="resourceElectricParts" count="10"/>
+      <ingredient name="resourceOil" count="4"/>
       <effect_group>
-        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".8,.8,.8,.6,.5" tags="resourceForgedSteel,resourceMetalPipe,resourceMechanicalParts,resourceElectricParts,resourceOil"/>
+        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".25,.25,.25,.177,.12" tags="resourceForgedSteel,resourceMetalPipe,resourceMechanicalParts,resourceElectricParts,resourceOil"/>
+      </effect_group>
+    </recipe>
+    <recipe name="toolMotorUpgrade" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
+      <ingredient name="resourceForgedSteel" count="10"/>
+      <ingredient name="resourceMechanicalParts" count="16"/>
+      <ingredient name="resourceElectricParts" count="12"/>
+      <ingredient name="resourceOil" count="4"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".25,.25,.25,.177,.12" tags="resourceForgedSteel,resourceMechanicalParts,resourceElectricParts,resourceOil"/>
+      </effect_group>
+    </recipe>
+    <recipe name="toolAnvilAdvanced" count="1" material_based="true" craft_area="forge" tags="learnable"> <!-- trap -->
+      <ingredient name="unit_iron" count="2000"/>
+      <ingredient name="unit_clay" count="200"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".25,.25,.25,.177,.12" tags="resourceForgedSteel,resourceMechanicalParts,resourceElectricParts,resourceOil"/>
+      </effect_group>
+    </recipe>
+    <recipe name="toolPoweredHammer" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
+      <ingredient name="toolAnvilAdvanced" count="1"/>
+      <ingredient name="resourceMechanicalParts" count="16"/>
+      <ingredient name="resourceElectricParts" count="5"/>
+      <ingredient name="resourceOil" count="4"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".25,.25,.25,.177,.12" tags="resourceMechanicalParts,resourceElectricParts,resourceOil"/>
       </effect_group>
     </recipe>
   </append>

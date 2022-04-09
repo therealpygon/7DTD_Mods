@@ -4,6 +4,6 @@
     <Name value="therealpygon-BalanceIngredientCosts" />
     <Description value="Balances ingredient costs to match more realistic requirements and effects." />
     <Author value="therealpygon" />
-    <Version value="19.6.2" compat="A19" />
+    <Version value="1.0" />
   </ModInfo>
 </xml>

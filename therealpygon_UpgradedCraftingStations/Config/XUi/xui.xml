@@ -1,4 +1,5 @@
 <configs>
+  <remove xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_cementMixer']" />
   <append xpath="/xui/ruleset[@name='default']" >
     <window_group name="workstation_forgeAdvanced" controller="XUiC_WorkstationWindowGroup">
       <window name="windowCraftingList"/>
@@ -20,5 +21,14 @@
       <window name="windowOutput" />
       <window name="windowNonPagingHeader" />
     </window_group>
+    <window_group name="workstation_cementMixer" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+      <window name="windowToolsCementMixer" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>		
   </append>
+  
 </configs>

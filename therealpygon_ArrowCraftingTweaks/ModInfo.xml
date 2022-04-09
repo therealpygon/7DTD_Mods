@@ -4,6 +4,6 @@
     <Name value="therealpygon-ArrowCraftingTweaks" />
     <Description value="Tweaks the ingredient cost of crafting arrows to include use of polymers for Iron arrows/bolts" />
     <Author value="therealpygon" />
-    <Version value="19.6.2" compat="A19" />
+    <Version value="1.0" />
   </ModInfo>
 </xml>

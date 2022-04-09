@@ -7,7 +7,7 @@
   <set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage_received']/@value">10</set>
   <!-- rWoodMetalLogSpike3 -->
   <set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">25</set>
-  <set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage_received']/@value">15</set>
+  <set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage_received']/@value">20</set>
   <!-- scrapIronLogSpike4 -->
   <set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">30</set>
   <set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage_received']/@value">15</set>

@@ -11,7 +11,7 @@
       <rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true">
 
         <grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
-        required_tools="toolDoubleBellows,toolAnvil,toolForgeCrucible" required_tools_only="true">
+        required_tools="toolDoubleBellows,toolAnvilAdvanced,toolForgeCrucible" required_tools_only="true">
           <required_item_stack name="0"/>
         </grid>
       </rect>
@@ -27,7 +27,7 @@
       <rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true">
 
         <grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
-        required_tools="toolForgeBlower,toolAnvil,toolForgeCrucible" required_tools_only="true">
+        required_tools="toolForgeBlower,toolPoweredHammer,toolForgeCrucible" required_tools_only="true">
           <required_item_stack name="0"/>
         </grid>
       </rect>
@@ -93,6 +93,19 @@
 				<label depth="2" name="onoff" pos="0,-6" justify="center" text="TURN ON" text_key="xuiTurnOn" font_size="26" />
 			</rect>
 		</panel>
+	</window>
+  <window name="windowToolsCementMixer" width="228" height="121" panel="Right" cursor_area="true" >
+	<!--#$-IGS END.-$#-->
+		<panel style="header.panel">
+			<sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true">
+			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
+			required_tools="toolMotorUpgrade" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
 	</window>
 	</append>
 </configs>
